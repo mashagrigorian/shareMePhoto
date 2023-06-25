@@ -5,6 +5,9 @@ import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
 import "./index.css";
 
+const appUrl = new URL(window.location.href);
+const publicUrl = appUrl.origin + '/shareme_frontend/public';
+
 ReactDOM.render(
   <Router>
     <App />

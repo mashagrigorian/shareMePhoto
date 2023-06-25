@@ -1,5 +1,7 @@
 import React, { useState } from "react";
-import { AiOutlineCloudUpload } from "react-icons/ai";
+// import { AiOutlineCloudUpload } from "react-icons/ai";
+// import { AiOutlineShoppingCart } from "../sanity/node_modules/react-icons/ai"
+
 import { useNavigate } from "react-router-dom";
 import { MdDelete } from "react-icons/md";
 
